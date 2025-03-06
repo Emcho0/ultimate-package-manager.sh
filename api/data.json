@@ -1,0 +1,23 @@
+
+[
+  {
+    "name": "VSCode",
+    "description": "Code editor, redefined",
+    "install": "upm install vscode"
+  },
+  {
+    "name": "Slack",
+    "description": "Collaboration and messaging platform for teams",
+    "install": "upm install slack"
+  },
+  {
+    "name": "Docker",
+    "description": "Containerization platform for building and running applications",
+    "install": "upm install docker"
+  },
+  {
+    "name": "Spotify",
+    "description": "Music streaming service with millions of tracks",
+    "install": "upm install spotify"
+  }
+]

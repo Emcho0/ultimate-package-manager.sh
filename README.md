@@ -1,15 +1,16 @@
 ## Upotreba
 
 ```pwsh
-$ irm https://deno.land/install.ps1 | iex
+$ irm https://deno.land/install.ps1 | iex # deno je potreban
 $ npm install # ili pnpm install ili yarn install ili deno install
 ```
 
-## Available Scripts
+## Skripta za pokretanje
 
-In the project directory, you can run:
+```bash
+deno task dev
+```
 
-### `deno task dev`
+## Web stranica
 
-Runs the app in the development mode.<br> Open
-[http://localhost:5173](http://localhost:5173) to view it in the browser.
+![slika](imgs/preview.png)

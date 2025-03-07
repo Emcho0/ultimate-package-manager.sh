@@ -19,5 +19,10 @@
     "name": "Spotify",
     "description": "Music streaming service with millions of tracks",
     "install": "upm install spotify"
+  },
+  {
+    "name": "Node.js",
+    "description": "Run JavaScript Everywhere",
+    "install": "upm install nodejs"
   }
 ]

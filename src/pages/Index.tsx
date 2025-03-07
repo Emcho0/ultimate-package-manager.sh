@@ -2,6 +2,7 @@ import { createSignal, For, onMount } from "solid-js";
 import { A } from "@solidjs/router";
 import type { AppInfo } from "../types.ts";
 import "./Index.css";
+import Navbar from "../components/Navbar.tsx";
 
 export default function Index() {
   const [apps, setApps] = createSignal<AppInfo[]>([]);
@@ -18,11 +19,9 @@ export default function Index() {
 
   return (
     <>
-      <nav class="navbar">
-        <A href="/docs">Dokumentacija</A>
-      </nav>
+      <Navbar/>
 
-      <div class="index">
+      <main class="index">
         <h1>Ultimate Package Manager</h1>
         <p>Najbolji upravitelj aplikacija ikada.</p>
         <For each={apps()}>
@@ -32,7 +31,7 @@ export default function Index() {
             </A>
           )}
         </For>
-      </div>
+      </main>
     </>
   );
 }

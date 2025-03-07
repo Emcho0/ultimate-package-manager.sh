@@ -1,11 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
 
-.app {
-  background-color: #121520;
-  color: #bdbfcb;
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&display=swap");
+
+:root {
+  --bg-dark: #15171D;
+  --bg-light: #343742;
+  --text-light: #C6DFEC;
+  --text-muted: #BDBFCB;
+  --border-radius: 10px 20px;
 }
 
-.index {
-  background-color: #121520;
-  color: #bdbfcb;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  margin: 0.5rem;
+  border-radius: var(--border-radius);
+}
+
+main.index {
+  background-color: var(--bg-dark);
+  border-radius: var(--border-radius);
+  color: var(--text-muted);
+  border-radius: 5px 10px;
 }

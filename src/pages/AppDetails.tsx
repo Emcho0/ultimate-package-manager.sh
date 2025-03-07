@@ -1,9 +1,6 @@
-// src/pages/AppDetails.tsx
-
 import { createSignal, onMount } from "solid-js";
 import { A, useParams } from "@solidjs/router";
 import type { AppInfo } from "../types.ts";
-import "./AppDetails.css";
 
 export default function AppDetails() {
   const params = useParams();
@@ -21,13 +18,15 @@ export default function AppDetails() {
   });
 
   return (
-    <div class="app-details">
-      <h1>{app().name}</h1>
-      <p>{app().description}</p>
-      <p>
-        <strong>Naredba:</strong> {app().install}
+    <div class="flex flex-col items-center p-6 bg-[#343742] text-[#C6DFEC] font-[Geist_Mono] shadow-md min-h-screen">
+      <h1 class="text-3xl font-bold mb-4">{app().name}</h1>
+      <p class="text-lg mb-4">{app().description}</p>
+      <p class="text-lg mb-4">
+        Naredba: {app().install}
       </p>
-      <A href="/">Back to all apps</A>
+      <A href="/" class="text-blue-500 hover:underline">
+        Nazad na ostale aplikacije
+      </A>
     </div>
   );
 }

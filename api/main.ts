@@ -1,3 +1,4 @@
+/// <reference lib="deno.ns" />
 import { Hono } from "@hono/hono";
 import data from "./data.json" with { type: "json" };
 

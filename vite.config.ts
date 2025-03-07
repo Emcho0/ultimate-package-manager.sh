@@ -1,8 +1,12 @@
 import { defineConfig } from "vite";
-import solid from "vite-plugin-solid";
+import solidPlugin from "vite-plugin-solid";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  plugins: [solid()],
+  plugins: [
+    tailwindcss(),
+    solidPlugin(),
+  ],
   server: {
     proxy: {
       "/api": {

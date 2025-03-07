@@ -1,13 +1,18 @@
 import { A } from "@solidjs/router";
+import Navbar from "../components/Navbar.tsx";
 
 export default function Docs() {
   return (
-    <div>
-      <h1>Dokuemntacija</h1>
+    <>
+      <Navbar />
 
-      <p>Uskoro</p>
+      <div>
+        <h1>Dokuemntacija</h1>
 
-      <A href="/">Vrati se na pocetnu</A>
-    </div>
+        <p>Uskoro</p>
+
+        <A href="/">Vrati se na pocetnu</A>
+      </div>
+    </>
   );
 }

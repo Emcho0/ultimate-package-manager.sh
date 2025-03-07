@@ -1,4 +1,3 @@
-
 [
   {
     "name": "VSCode",
@@ -24,5 +23,80 @@
     "name": "Node.js",
     "description": "Run JavaScript Everywhere",
     "install": "upm install nodejs"
+  },
+  {
+    "name": "Ruff",
+    "description": "Python linter and static analysis tool for fast and accurate code analysis",
+    "install": "upm install ruff"
+  },
+  {
+    "name": "UV",
+    "description": "A minimalistic, high-performance Python web framework",
+    "install": "upm install uv"
+  },
+  {
+    "name": "Clangd",
+    "description": "C++ language server with support for Clang-based tooling",
+    "install": "upm install clangd"
+  },
+  {
+    "name": "GCC",
+    "description": "GNU Compiler Collection for compiling C, C++, and other languages",
+    "install": "upm install gcc"
+  },
+  {
+    "name": "Git",
+    "description": "Distributed version control system for tracking code changes",
+    "install": "upm install git"
+  },
+  {
+    "name": "Postman",
+    "description": "API development and testing tool",
+    "install": "upm install postman"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "description": "An integrated development environment for Java and other programming languages",
+    "install": "upm install idea"
+  },
+  {
+    "name": "Figma",
+    "description": "Design tool for UI/UX with collaboration features",
+    "install": "upm install figma"
+  },
+  {
+    "name": "Zoom",
+    "description": "Video conferencing and online meeting platform",
+    "install": "upm install zoom"
+  },
+  {
+    "name": "Discord",
+    "description": "Voice, video, and text communication platform for gamers and communities",
+    "install": "upm install discord"
+  },
+  {
+    "name": "VLC Media Player",
+    "description": "Open-source, cross-platform multimedia player",
+    "install": "upm install vlc"
+  },
+  {
+    "name": "Trello",
+    "description": "Collaboration tool for organizing tasks and projects",
+    "install": "upm install trello"
+  },
+  {
+    "name": "Jupyter Notebook",
+    "description": "Web-based interactive computing environment for data science and machine learning",
+    "install": "upm install jupyter"
+  },
+  {
+    "name": "GIMP",
+    "description": "Free and open-source raster graphics editor for tasks such as photo retouching",
+    "install": "upm install gimp"
+  },
+  {
+    "name": "Slack",
+    "description": "Workplace communication platform for messaging and collaboration",
+    "install": "upm install slack"
   }
 ]

@@ -1,12 +1,13 @@
 /* @refresh reload */
-import { render } from 'solid-js/web'
-import './index.css'
-import App from './App.tsx'
 
-const root = document.getElementById('root')
+import { render } from "solid-js/web";
+import "./index.css";
+import App from "./App.tsx";
 
-if(!root){
-    throw new Error("Div nije pronadjen");
+const root = document.getElementById("root");
+
+if (!root) {
+  throw new Error("Div nije pronadjen");
 }
 
-render(() => <App />, root)
+render(() => <App />, root);

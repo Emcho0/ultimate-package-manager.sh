@@ -31,7 +31,7 @@
   },
   {
     "name": "UV",
-    "description": "A minimalistic, high-performance Python web framework",
+    "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "install": "upm install uv"
   },
   {

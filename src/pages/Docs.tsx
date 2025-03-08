@@ -6,12 +6,10 @@ export default function Docs() {
     <>
       <Navbar />
 
-      <div>
+      <div class="bg-[#15171D] min-h-screen text-[#878996] font-[Geist_Mono]">
         <h1>Dokuemntacija</h1>
 
         <p>Uskoro</p>
-
-        <A href="/">Vrati se na pocetnu</A>
       </div>
     </>
   );

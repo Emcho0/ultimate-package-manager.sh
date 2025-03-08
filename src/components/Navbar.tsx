@@ -63,6 +63,14 @@ export default function Navbar() {
                 Instalacija
               </a>
             </li>
+            <li>
+              <a
+                href="/applist"
+                class="block py-2 px-3 text-[#BDBFCB] rounded-sm hover:bg-[#343742] md:hover:bg-transparent md:border-0 md:hover:text-[#597BC0] md:p-0 dark:text-[#BDBFCB] md:dark:hover:text-[#597BC0] dark:hover:bg-[#343742] dark:hover:text-[#BDBFCB] md:dark:hover:bg-transparent"
+              >
+                Lista aplikacija
+              </a>
+            </li>
           </ul>
         </div>
       </div>

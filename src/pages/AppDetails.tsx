@@ -20,7 +20,6 @@ export default function AppDetails() {
     }).catch((err) => console.error("Failed to copy:", err));
   };
 
-  // Fetch app details on mount
   onMount(async () => {
     const resp = await fetch(`/api/apps/${params.selectedApp}`);
     const appDetails = (await resp.json()) as AppInfo;
@@ -31,11 +30,11 @@ export default function AppDetails() {
   return (
     <>
       <Navbar />
+
       <div class="flex flex-col items-center p-6 bg-[#15171D] text-[#878996] font-[Geist_Mono] shadow-md min-h-screen">
         <h1 class="text-3xl font-bold mb-4">{app().name}</h1>
         <p class="text-lg mb-4">{app().description}</p>
 
-        {/* Display the installation command with a "Copy" button */}
         <div class="flex items-center mb-4">
           <p class="text-lg mr-2">{`Naredba: ${app().install}`}</p>
 

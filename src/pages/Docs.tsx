@@ -7,7 +7,7 @@ export default function Docs() {
       <Navbar />
 
       <div class="bg-[#15171D] min-h-screen text-[#878996] font-[Geist_Mono]">
-        <h1>Dokuemntacija</h1>
+        <h1>Dokumentacija</h1>
 
         <p>Uskoro</p>
       </div>

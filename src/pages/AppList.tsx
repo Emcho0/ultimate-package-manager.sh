@@ -26,7 +26,7 @@ export default function Index() {
         <p class="text-center text-2xl mb-6">
           Najbolji upravitelj aplikacija ikada.
         </p>
-
+        <Search />
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full mt-6">
           <For each={apps()}>
             {(app) => (
